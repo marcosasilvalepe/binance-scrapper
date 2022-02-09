@@ -30,7 +30,7 @@ function sendWhatsapp(msg) {
     client.messages.create({
         from: 'whatsapp:+14155238886',
         body: msg,
-        to: 'whatsapp:+56968439779'
+        to: 'whatsapp: myPhoneNumber'
     }).then(/*message => console.log(message.sid)*/)
 }
 
