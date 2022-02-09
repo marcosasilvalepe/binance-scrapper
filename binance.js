@@ -6,7 +6,7 @@
 /************************************ PUPPETEER AND MYSQL CONSTANTS **************************************/
 const puppeteer = require('puppeteer');
 const url = "https://www.binance.com/en/support/announcement/";
-const twilio_account = 'my_twilio_acount';
+const twilio_account = 'my_twilio_account';
 const twilio_token = 'twilio_token';
 const client = require('twilio')(twilio_account, twilio_token);
 const mysql = require('mysql');
